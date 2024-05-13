@@ -13,9 +13,6 @@ class Person {
 }
 
 class Student extends Person {
-	constructor() {
-		super()
-	}
 	study() {
 		console.log(`${this.name} is studying`)
 	}
